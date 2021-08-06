@@ -1,0 +1,51 @@
+/* ==================== MOBILE FIRST ==================== */
+/* ---------- main div ---------- */
+.home_section1_main_div {
+    padding: 0 2.4rem;
+}
+
+
+.home_h1_div h1 {
+    font-size: 4.8rem;
+    line-height: 5.8rem;
+}
+
+
+
+
+
+
+
+
+
+/* ---------- text ---------- */
+.home_h1_div {
+    margin-bottom: 2.4rem;
+    color: #F4F4F4;
+}
+
+.home_text_div {
+    font-size: 1.6rem;
+    color: #D1D0D1;
+}
+
+/* letras em azul */
+.home_div_li span {
+    color: #129DFF;
+}
+
+/* li */
+.home_div_li {
+    display: flex;
+}
+
+.home_text_div p {
+    margin-bottom: 0.8rem;
+}
+
+/* círculo azul da lista */
+.blue_circle {
+    margin-right: 1.6rem;
+    color: #129DFF;
+    font-size: 25px;
+}
