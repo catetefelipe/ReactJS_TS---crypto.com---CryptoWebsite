@@ -1,51 +1,218 @@
 /* ==================== MOBILE FIRST ==================== */
-/* ---------- main div ---------- */
+/* ---------- principais div´s que englobam todos (ou quase) os elementos ---------- */
+.home_section1 {
+    padding: 2rem 0;
+}
+
+
 .home_section1_main_div {
     padding: 0 2.4rem;
 }
 
 
-.home_h1_div h1 {
-    font-size: 4.8rem;
-    line-height: 5.8rem;
+.home_h1_and_list {
+    margin-bottom: 4rem;
 }
 
 
 
 
 
-
-
-
-
-/* ---------- text ---------- */
+/* ---------- h1 div ---------- */
 .home_h1_div {
-    margin-bottom: 2.4rem;
+    margin-bottom: 2.8rem;
     color: #F4F4F4;
 }
 
+
+.home_h1_div h1 {
+    font-size: 4.8rem;
+    line-height: 115%;
+}
+
+
+
+
+
+/* ---------- text div (sem o h1) ---------- */
 .home_text_div {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #D1D0D1;
 }
 
-/* letras em azul */
+
+/* letras em azul dentro da lista */
 .home_div_li span {
     color: #129DFF;
 }
 
-/* li */
+
+/* a div que representa uma li ||||| div que comporta o cículo azul e uma linha (p) da lista */
 .home_div_li {
     display: flex;
 }
 
-.home_text_div p {
-    margin-bottom: 0.8rem;
-}
 
 /* círculo azul da lista */
 .blue_circle {
     margin-right: 1.6rem;
     color: #129DFF;
     font-size: 25px;
+}
+
+
+
+
+
+/* ---------- imagens dos logos para download da app store e google play ---------- */
+.home_appstore {
+    width: 139px;
+    margin-right: 0.8rem;
+}
+
+
+.home_googleplay {
+    width: 153px;
+}
+
+
+.home_qrcode {
+    width: 76px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================== MEDIA QUERIES ==================== */
+/* ========== min 768px ========== */
+@media (min-width: 768px) {
+/* ---------- principais div´s que englobam todos (ou quase) os elementos ---------- */
+.home_h1_and_list {
+    max-width: 589px;
+    margin: auto;
+    margin-bottom: 4.8rem;
+}
+
+
+/* ---------- h1 div ---------- */
+    .home_h1_div {
+        text-align: center;
+        margin-bottom: 3.2rem;
+    }
+
+    .home_h1_div h1 {
+        line-height: 120%;
+    }
+
+
+/* a div que representa uma ul */
+    .home_div_ul {
+        display: table;
+        margin: 0 auto;
+    }
+
+/* a div que representa uma li */
+    .home_div_li {
+        height: 2rem;
+        margin-bottom: 0.8rem;
+    }
+
+
+/* ---------- imagens dos logos para download da app store e google play ---------- */
+.home_logo_div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home_appstore {
+        width: 143px;
+        margin-right: 1.6rem;
+    }
+
+    .home_googleplay {
+        width: 160px;
+    }
+
+    .home_qrcode {
+        display: block;
+        margin-left: 2.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* ========== min 1128px ========== */
+@media (min-width: 1128px) {
+/* ---------- principais div´s que englobam todos (ou quase) os elementos ---------- */
+    .home_section1 {
+        padding: 7.5rem 0;
+    }
+
+    .home_h1_and_list {
+        max-width: 1000px;
+        margin: auto;
+        margin-bottom: 4.2rem;
+    }
+
+
+/* ---------- h1 div ---------- */
+    .home_h1_div h1 {
+        font-size: 7.4rem;
+    }
+
+
+/* a div que representa uma li */
+    .home_div_li {
+        height: 2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .home_div_li p {
+        font-size: 2rem;
+    }
 }
