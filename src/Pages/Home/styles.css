@@ -50,12 +50,13 @@
 /* a div que representa uma li ||||| div que comporta o cículo azul e uma linha (p) da lista */
 .home_div_li {
     display: flex;
+    margin-bottom: 0.2rem;
 }
 
 
 /* círculo azul da lista */
 .blue_circle {
-    margin-right: 1.6rem;
+    margin-right: 1.4rem;
     color: #129DFF;
     font-size: 25px;
 }
@@ -120,6 +121,7 @@
 
 
 
+
 /* ==================== MEDIA QUERIES ==================== */
 /* ========== min 768px ========== */
 @media (min-width: 768px) {
@@ -138,7 +140,7 @@
     }
 
     .home_h1_div h1 {
-        line-height: 120%;
+        line-height: 119%;
     }
 
 

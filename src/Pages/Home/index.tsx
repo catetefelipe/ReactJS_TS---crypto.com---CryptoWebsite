@@ -18,6 +18,7 @@ import { HiCheckCircle } from "react-icons/hi";
 
 function Home() {
     return (
+        <>
         <section className="home_section1">
             <div className="home_section1_main_div">
                 <div className="home_h1_and_list">
@@ -61,6 +62,7 @@ function Home() {
                 </div> {/* contém os símbolos do Google Play e App Store */}
             </div>
         </section>
+        </>
     )
 }
 

@@ -1,0 +1,21 @@
+/* círculo azul */
+.chatbox {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    background-color: #024069;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ícone */
+.chatbox a {
+    color: rgb(244, 244, 244);
+    font-size: 3.5rem;
+    margin-top: .6rem;
+}

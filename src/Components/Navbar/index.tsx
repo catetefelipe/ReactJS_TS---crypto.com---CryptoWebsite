@@ -41,10 +41,10 @@ function Navbar() {
                                 <span>Company</span>
                                 <RiArrowDownSLine />
                             </div>
-                            <div className="nav_link_li nav_link_margin">
+                            <div id="prices" className="nav_link_li nav_link_margin">
                                 <a href="https://crypto.com/price">Prices</a>
                             </div>
-                            <div className="nav_link_li nav_link_margin">
+                            <div id="langs" className="nav_link_li nav_link_margin">
                                 <span>EN</span>
                                 <RiArrowDownSLine />
                             </div>
