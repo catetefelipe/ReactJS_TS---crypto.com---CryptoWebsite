@@ -16,7 +16,7 @@ import { HiCheckCircle } from "react-icons/hi";
 
 
 
-const Home = () => {
+const Home: FC = () => {
     return (
         <>
         <section className="home_section1">
