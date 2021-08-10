@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FC} from "react";
 import "./styles.css";
 
 // REACT-ICONS
@@ -18,7 +18,7 @@ import appstore from "../../Images/Navbar/app-store-button.png";
 
 
 
-function Navbar() {
+const Navbar: FC = () => {
     return (
         <nav>
             <div className="nav_1_div">

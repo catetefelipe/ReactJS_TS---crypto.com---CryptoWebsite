@@ -1,4 +1,4 @@
-import React from "react"
+import React, {FC} from "react"
 import "./styles.css";
 
 // COMPONENTE
@@ -7,7 +7,7 @@ import { RiChat2Fill } from "react-icons/ri";
 
 
 
-function ChatBox() {
+const ChatBox: FC = () => {
     return (
         <>
             <div className="chatbox">

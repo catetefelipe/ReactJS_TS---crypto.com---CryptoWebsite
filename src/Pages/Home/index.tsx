@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FC} from "react";
 import "./styles.css";
 
 // IMAGENS
@@ -16,7 +16,7 @@ import { HiCheckCircle } from "react-icons/hi";
 
 
 
-function Home() {
+const Home = () => {
     return (
         <>
         <section className="home_section1">

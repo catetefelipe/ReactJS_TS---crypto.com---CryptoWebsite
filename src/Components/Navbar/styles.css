@@ -159,7 +159,7 @@ nav {
 
 
 @media (max-width: 900px) {
-    .nav_1_div {
+    .nav_link_ul {
         display: none;
     }
 }
