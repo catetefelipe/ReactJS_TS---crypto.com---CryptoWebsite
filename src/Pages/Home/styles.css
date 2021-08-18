@@ -66,6 +66,12 @@
 
 
 /* ---------- imagens dos logos para download da app store e google play ---------- */
+.home_logo_div {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
 .home_appstore {
     width: 139px;
     margin-right: 0.8rem;
@@ -158,7 +164,7 @@
 
 
 /* ---------- imagens dos logos para download da app store e google play ---------- */
-.home_logo_div {
+    .home_logo_div {
         display: flex;
         align-items: center;
         justify-content: center;

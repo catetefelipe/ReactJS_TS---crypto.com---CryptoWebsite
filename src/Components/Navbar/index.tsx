@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import React, { FC, useState } from "react";
 import "./styles.css";
 
 // REACT-ICONS
@@ -19,6 +19,13 @@ import appstore from "../../Images/Navbar/app-store-button.png";
 
 
 const Navbar: FC = () => {
+
+    /* 1º sidebar: valor || 2º setSidebar: função que altera o estado || 3º valor atual (false) */
+    const [sidebar, setSidebar] = useState<boolean>(false);
+    /* 4º showSidebar: função a ser ativada no clique || 5º setSidebar(!sidebar): vai alterar o valor atual de false para true ou vice-versa (false-true / true-false) */
+    const showSidebar = () => setSidebar(!sidebar);
+
+
     return (
         <nav>
             <div className="nav_1_div">
